@@ -1,10 +1,13 @@
 import Banner from "../../components/home/banner/Banner";
+import Category from "./Category";
 
 const Home = () => {
   return (
     <>
-      <h1>this id home page</h1>
       <Banner />
+      <sectionq className="w-10/12 mx-auto">
+        <Category />
+      </sectionq>
     </>
   );
 };
