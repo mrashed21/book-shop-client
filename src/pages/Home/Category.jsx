@@ -2,10 +2,14 @@
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
+import SectionTitle from "../../shared/SectionTitle/SectionTitle";
 
 const Category = () => {
   return (
     <>
+    <SectionTitle heading={"From 11am to 10pm"}  hubHeading={"Our Offer"} />
+     
+   
       <Swiper
         slidesPerView={3}
         spaceBetween={30}

@@ -1,4 +1,5 @@
 import Banner from "../../components/home/banner/Banner";
+import Menu from "../Menu/Menu";
 import Category from "./Category";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <sectionq className="w-10/12 mx-auto">
         <Category />
       </sectionq>
+      <Menu/>
     </>
   );
 };
